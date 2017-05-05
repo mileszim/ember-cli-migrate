@@ -2,7 +2,11 @@
 
 module.exports = function(migrateTarget) {
   var ENV = {
-    migrate: {}
+    migrate: {
+      // This will be updated manually, but you can update this to
+      // the file name of the migration you want to start with
+      lastRunMigration: null
+    }
     // include other plugin configuration that applies to all migrate targets here
   };
 
