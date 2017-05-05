@@ -1,13 +1,15 @@
-# ember-cli-migrate
+# ember-cli-migrate #
 
-This README outlines the details of collaborating on this Ember addon.
+This is the base for ember migrations. "Are you stupid? Ember doesn't need migrations!" you may ask. Ah! But sometimes you use firebase and want to move data from one place to another. This plugin will accept other plugins similar to ember-cli-deploy but currently I'm only going to make one for firebase.
 
-## Installation
+## Installation ##
 
-* `git clone <repository-url>` this repository
-* `cd ember-cli-migrate`
-* `npm install`
-* `bower install`
+1. ```ember install ember-cli-migrate```
+2. ```ember install ember-cli-migrate-emberfire```
+
+## Adding migrations ##
+
+Coming soon.
 
 ## Running
 

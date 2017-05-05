@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-migrate",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Run migrations on your data using Ember",
   "keywords": [
     "ember-addon"
   ],
